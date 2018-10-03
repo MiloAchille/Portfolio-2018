@@ -74,6 +74,22 @@ html, body {
 	padding: 1rem 0rem;
 }
 
+.work-switch {
+	width: 100%;
+	display: inline-block;
+	padding: 0.5rem;
+	border: 2px solid #dcdcdc;
+	text-align: center;
+	color: #333;
+	transition: all 0.2s ease;
+}
+
+.work-switch:hover {
+	color: #333;
+	border: 2px solid #333;
+	transition: all 0.2s ease;
+}
+
 /* FONTS */
 
 .strong-message {
@@ -127,6 +143,7 @@ html, body {
 .nav-link.active {
     /* color: #4180f7!important; */
     border: 2px solid #333;
+    background-color: #fff;
 }
 
 /* TEXT COLORS */
