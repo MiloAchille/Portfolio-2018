@@ -13,6 +13,10 @@ html, body {
 	background-color: #FFF;
 }
 
+.no-rounded {
+	border-radius: 0rem!important;
+}
+
 .dark-bg {
 	background-color: #232323;
 }
@@ -171,6 +175,15 @@ html, body {
 .footer-links:hover {
 	text-decoration: none;
 	color: #333;
+}
+
+.project-link {
+	color: #b7b7b7;
+}
+
+.project-link:hover {
+	color: #007bff;
+	text-decoration: none;
 }
 
 /* TEXT COLORS */
