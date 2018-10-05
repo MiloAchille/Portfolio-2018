@@ -13,12 +13,32 @@ html, body {
 	background-color: #FFF;
 }
 
-.no-rounded {
-	border-radius: 0rem!important;
-}
-
 .dark-bg {
 	background-color: #232323;
+}
+
+.edjing-free-bg {
+	background-color: #161621;
+}
+
+.karaoky-bg {
+	background-color: #7540f7;
+}
+
+.edjing-scratch-bg {
+    background-color: #f7d2b9;
+}
+
+.edjing-pro-bg {
+	background-color: #18191b;
+}
+
+.bassboost-bg {
+    background-color: #e3e0fa;
+}
+
+.no-rounded {
+	border-radius: 0rem!important;
 }
 
 .fill {
@@ -108,6 +128,11 @@ html, body {
 .footer > .container {
 }
 
+.appicons {
+	border-radius: 116px;
+	box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
 /* FONTS */
 
 .strong-message {
@@ -190,4 +215,44 @@ html, body {
 
 .ex-light {
 	color: #848484;
+}
+
+.edjingfreetitle {
+	color: #7c7c8a;
+}
+
+.edjingfreesub {
+    color: #4c4c5f;
+}
+
+.karaokytitle {
+    color: #381e77;
+}
+
+.karaokysub {
+    color: #482996;
+}
+
+.edjingscratchtitle {
+	color: #846a59;
+}
+
+.edjingscratchsub {
+    color: #bd957a;
+}
+
+.edjingprotitle {
+    color: #7f848e;
+}
+
+.edjingprosub {
+	color: #404246;
+}
+
+.bassboosttitle {
+    color: #787594;
+}
+
+.bassboostsub {
+    color: #ada9ce;
 }
