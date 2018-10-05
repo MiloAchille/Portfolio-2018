@@ -37,6 +37,10 @@ html, body {
     background-color: #e3e0fa;
 }
 
+.lanared-bg {
+	background-color: #ee3435;
+}
+
 .no-rounded {
 	border-radius: 0rem!important;
 }
@@ -131,6 +135,13 @@ html, body {
 .appicons {
 	border-radius: 116px;
 	box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease;
+}
+
+.appicons:hover {
+	box-shadow: 0 30px 30px rgba(0, 0, 0, 0.15);
+	transform: translateY(-10px);
+	transition: all 0.3s ease;
 }
 
 /* FONTS */
