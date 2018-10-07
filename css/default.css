@@ -33,12 +33,20 @@ html, body {
 	background-color: #18191b;
 }
 
+.edjing-pro-black-bg {
+	background-color: #000;
+}
+
 .bassboost-bg {
     background-color: #e3e0fa;
 }
 
 .lanared-bg {
 	background-color: #ee3435;
+}
+
+.lasuite-bg {
+    background-color: #e4dfdb;
 }
 
 .no-rounded {
@@ -142,6 +150,27 @@ html, body {
 	box-shadow: 0 30px 30px rgba(0, 0, 0, 0.15);
 	transform: translateY(-10px);
 	transition: all 0.3s ease;
+}
+
+.stickersvideo {
+	border-radius: 100%;
+    border: 3px solid #000;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pnganim {
+	display:block;
+	width: 536px;
+	height: 536px;
+  	animation: stickers-cycle 0.8s steps(11) infinite;
+  	background: url(../img/pnganim.png) 0 0;
+    box-shadow: 0 20px 100px rgba(0, 0, 0, 0.3); 
+    border-radius: 100%;
+}
+
+@keyframes stickers-cycle {  
+  	0% {background-position: 0px 0px; } 
+  	100% {background-position: -5896px -0px; } 
 }
 
 /* FONTS */
