@@ -159,13 +159,19 @@ html, body {
 }
 
 .pnganim {
-	display:block;
+	display: inline-block;
 	width: 536px;
 	height: 536px;
-  	animation: stickers-cycle 0.8s steps(11) infinite;
+  	animation: stickers-cycle 1s steps(11) infinite;
+  	/* animation-timing-function: ease-in-out;
+  	animation-direction: alternate; */
   	background: url(../img/pnganim.png) 0 0;
-    box-shadow: 0 20px 100px rgba(0, 0, 0, 0.3); 
+  	box-shadow: 0 20px 100px rgba(0, 0, 0, 0.3); 
     border-radius: 100%;
+}
+
+.pnganim:hover {
+	animation-play-state: paused;
 }
 
 @keyframes stickers-cycle {  
