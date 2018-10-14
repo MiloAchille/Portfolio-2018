@@ -41,12 +41,20 @@ html, body {
     background-color: #e3e0fa;
 }
 
-.lanared-bg {
-	background-color: #ee3435;
+.lana-bg {
+	background-color: #ffc62c;
+}
+
+.lana-bg-red {
+	background-color: #ff2e2f;
+}
+
+.lana-bg-orange {
+	background-color: #f97a22;
 }
 
 .lasuite-bg {
-    background-color: #e4dfdb;
+    background-color: #000;
 }
 
 .no-rounded {
@@ -162,21 +170,48 @@ html, body {
 	display: inline-block;
 	width: 536px;
 	height: 536px;
-  	animation: stickers-cycle 1s steps(11) infinite;
+  	animation: stickers-cycle 1.5s steps(14) infinite;
   	/* animation-timing-function: ease-in-out;
   	animation-direction: alternate; */
-  	background: url(../img/pnganim.png) 0 0;
-  	box-shadow: 0 20px 100px rgba(0, 0, 0, 0.3); 
+  	background: url(../img/pnganim-logo.png) 0 0;
+    /* box-shadow: 0 0px 430px rgb(255, 0, 0); */
     border-radius: 100%;
-}
-
-.pnganim:hover {
-	animation-play-state: paused;
 }
 
 @keyframes stickers-cycle {  
   	0% {background-position: 0px 0px; } 
-  	100% {background-position: -5896px -0px; } 
+  	100% {background-position: -7504px -0px; } 
+}
+
+.pillule {
+	height: 78px;
+	border: 2px solid #ffb72c;
+	border-radius: 78px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.pastille {
+	width: 74px;
+	height: 74px;
+	border: 2px solid #FFF;
+	box-sizing: border-box;
+	border-radius: 100%;
+	float: left;
+}
+
+.pillule-txt {
+	font-weight: 600;
+	float: left;
+    padding: 13px 0px;
+}
+
+.lana-container {
+	border: 2px solid #ffb72c;
+	border-radius: 6px;
+	box-sizing: border-box;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
 /* FONTS */
@@ -301,4 +336,18 @@ html, body {
 
 .bassboostsub {
     color: #ada9ce;
+}
+
+.lanaprojecttitle {
+	color: #784a0f;
+}
+
+.lanaprojectsub {
+	color: #9b5904;
+}
+
+.lanaprojectpillule {
+	color: #9b5904;
+	margin: 0px;
+	padding-left: 15px;
 }
