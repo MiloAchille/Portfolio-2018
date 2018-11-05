@@ -2,7 +2,8 @@
 
 html, body {
 	height: 100%;
-	background-color: #ececec;
+	background-color: #1f1f1f;
+	color: #797979;
 }
 
 .jumbotron {
@@ -91,7 +92,7 @@ html, body {
 }
 
 .rounded100 {
-    border-radius: 100%;
+    border-radius: 4px;
 }
 
 .marge-works {
@@ -102,14 +103,12 @@ html, body {
 .works {
 	transition: all 0.2s ease;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-	border: 3px solid #fff;
 }
 
 .works:hover {
 	box-shadow: 0 20px 100px rgba(0, 0, 0, 0.3);
 	transform: translateY(-3px);
 	transition: all 0.2s ease;
-	border: 3px solid #333;
 }
 
 .navbar {
@@ -119,7 +118,7 @@ html, body {
 }
 
 .container > .navbar {
-	border-bottom: 2px solid #333;
+	border-bottom: 2px solid #171717;
 	padding: 1rem 0rem;
 }
 
@@ -127,21 +126,21 @@ html, body {
 	width: 100%;
 	display: inline-block;
 	padding: 0.5rem 0rem;
-	border: 2px solid #dcdcdc;
+	border: 2px solid #171717;
 	text-align: center;
-	color: #333;
+	color: #797979;
 	transition: all 0.2s ease;
 }
 
 .work-switch:hover {
-	color: #333;
-	border: 2px solid #333;
+	color: #FFF;
+	border: 2px solid #42f5bb;
 	transition: all 0.2s ease;
 }
 
 .footer {
 	/* background-color: #e4e4e4; */
-	border-top: 2px solid #dcdcdc;
+	border-top: 2px solid #171717;
 	color: #333;
 }
 
@@ -222,7 +221,7 @@ html, body {
 }
 
 .strong-message > a {
-	color: #333;
+	color: #fff;
 }
 
 .under-strong {
@@ -245,12 +244,12 @@ html, body {
 
 .nav-link {
 	font-weight: 600;
-	color: #333;
+	color: #797979;
 	font-size: 0.875em;
 	transition: all 0.2s ease;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	border: 2px solid #ececec;
+	border: 2px solid #171717;
 	border-radius: 4px;
 	margin: 0rem 0.5rem;
 	padding-right: 1rem!important;
@@ -258,29 +257,33 @@ html, body {
 }
 
 .nav-link:hover {
-	color: #333;
+	color: #fff;
 	border-radius: 4px;
 	transition: all 0.2s ease;
-	border: 2px solid #dcdcdc;
+	border: 2px solid #42f5bb;
 }
 
 .nav-link.active {
-    /* color: #4180f7!important; */
-    border: 2px solid #333;
-    background-color: #fff;
+    color: #fff!important;
+    border: 2px solid #333333;
+    background-color: #1f1f1f;
 }
 
 .footer-text {
+	color: #484848;
 }
 
 .footer-links {
-	color: #333;
+	color: #484848;
 	font-weight: 600;
+	transition: all 0.2s ease;
 }
 
 .footer-links:hover {
+	color: #42f5bb!important;
 	text-decoration: none;
 	color: #333;
+	transition: all 0.2s ease;
 }
 
 .project-link {
@@ -288,11 +291,19 @@ html, body {
 }
 
 .project-link:hover {
-	color: #007bff;
+	color: #42f5bb;
 	text-decoration: none;
 }
 
 /* TEXT COLORS */
+
+.text-secondary {
+    color: #525252 !important;
+}
+
+.white-text {
+	color: #fff;
+}
 
 .ex-light {
 	color: #848484;
