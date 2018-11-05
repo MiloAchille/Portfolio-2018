@@ -92,6 +92,10 @@ html, body {
 }
 
 .rounded100 {
+    border-radius: 100%;
+}
+
+.rounded004 {
     border-radius: 4px;
 }
 
@@ -213,6 +217,36 @@ html, body {
 	padding-left: 0px;
 }
 
+.head-container {
+	overflow: hidden;
+}
+
+.head-pic {
+	opacity: 0;
+	visibility: hidden;
+	padding: 10px 20px 10px 0px;
+	width: 96px;
+	float: left;
+	transition: all 0.2s ease;
+}
+
+.head-title {
+	float: left;
+	transform: translate(-96px);
+	transition: all 0.2s ease;
+}
+
+.head-container:hover > .head-pic {
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.2s ease;
+}
+
+.head-container:hover > .head-title {
+	transform: translate(0px);
+	transition: all 0.2s ease;
+}
+
 /* FONTS */
 
 .strong-message {
@@ -222,6 +256,10 @@ html, body {
 
 .strong-message > a {
 	color: #fff;
+}
+
+.strong-message > a:hover {
+	text-decoration: none;
 }
 
 .under-strong {
