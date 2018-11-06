@@ -58,6 +58,12 @@ html, body {
     background-color: #000;
 }
 
+.lana-bg-main {
+	background-color: #ffc62c;
+	background-image: url(../img/lanabackgroundmain.png);
+	background-repeat: no-repeat;
+}
+
 .no-rounded {
 	border-radius: 0rem!important;
 }
@@ -215,10 +221,16 @@ html, body {
 	box-sizing: border-box;
 	padding-right: 0px;
 	padding-left: 0px;
+	transform: translate(0px, 40px);
+}
+
+.facebookbadgelana {
+	border-radius: 0px 0px 4px 4px;
 }
 
 .head-container {
 	overflow: hidden;
+	display: inline-block;
 }
 
 .head-pic {
@@ -303,7 +315,7 @@ html, body {
 
 .nav-link.active {
     color: #fff!important;
-    border: 2px solid #333333;
+    border: 2px solid #797979;
     background-color: #1f1f1f;
 }
 
@@ -399,4 +411,8 @@ html, body {
 	color: #9b5904;
 	margin: 0px;
 	padding-left: 15px;
+}
+
+.lanayellow {
+	color: #ffc62c;
 }
