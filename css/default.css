@@ -38,6 +38,10 @@ html, body {
 	background-color: #000;
 }
 
+.edjing-pro-bg-orange {
+	background-color: #ff9144;
+}
+
 .bassboost-bg {
     background-color: #e3e0fa;
 }
@@ -345,6 +349,59 @@ html, body {
 	text-decoration: none;
 }
 
+.polaroid-container {
+	background-color: #FFF;
+	padding: 15px;
+	border-radius: 2px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.polaroid-top {
+	box-shadow: inset 0 0 10px #000000;
+}
+
+.polaroid-text {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #1f1f1f;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	text-align: center;
+	transform: rotate(-4deg);
+}
+
+.polaroid-text-2 {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #1f1f1f;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	text-align: center;
+	transform: rotate(1deg);
+}
+
+.polaroid-text-3 {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #1f1f1f;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	text-align: center;
+	transform: rotate(-1deg);
+}
+
+.eproiphoneshadow {
+	border-radius: 57px;
+	box-shadow: 0 50px 100px rgba(169, 44, 24, 0.78);
+}
+
+.eproappiconshadow {
+	border-radius: 23%;
+	box-shadow: 0 50px 100px rgba(169, 44, 24, 0.78);
+}
+
+.eproshadowonblack {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+	border-radius: 6px;
+}
+
 /* TEXT COLORS */
 
 .text-secondary {
@@ -415,4 +472,20 @@ html, body {
 
 .lanayellow {
 	color: #ffc62c;
+}
+
+.eprotextorange {
+	color: #9f361d;
+}
+
+.eprotitle {
+	color: #ff9144;
+}
+
+.eprosub {
+	color: #fff;
+}
+
+.eprop {
+	color: #73767c;
 }
