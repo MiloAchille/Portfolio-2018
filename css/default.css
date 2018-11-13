@@ -392,6 +392,12 @@ html, body {
 	box-shadow: 0 50px 100px rgba(169, 44, 24, 0.78);
 }
 
+.eproscreenshadow {
+	border-radius: 10px;
+	box-shadow: 0 50px 100px rgba(169, 44, 24, 0.78);
+}
+
+
 .eproappiconshadow {
 	border-radius: 23%;
 	box-shadow: 0 50px 100px rgba(169, 44, 24, 0.78);
