@@ -62,6 +62,10 @@ html, body {
     background-color: #000;
 }
 
+.background-main {
+	background-color: #232323;
+}
+
 .lana-bg-main {
 	background-color: #ffc62c;
 	background-image: url(../img/lanabackgroundmain.png);
