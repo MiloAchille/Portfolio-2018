@@ -396,12 +396,12 @@ html, body {
 }
 
 .eproiphoneshadow {
-	border-radius: 57px;
+	border-radius: 6%/12%;
 	box-shadow: 0 50px 100px rgba(169, 44, 24, 0.78);
 }
 
 .eproscreenshadow {
-	border-radius: 10px;
+	border-radius: 1%/2%;
 	box-shadow: 0 50px 100px rgba(169, 44, 24, 0.78);
 }
 
