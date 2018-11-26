@@ -135,6 +135,10 @@ html, body {
 	padding: 0rem 1rem;
 }
 
+.navbar-nav {
+	flex-direction: row;
+}
+
 .container > .navbar {
 	border-bottom: 2px solid #171717;
 	padding: 1rem 0rem;
@@ -418,7 +422,6 @@ html, body {
 
 .wip-container {
 	position: relative;
-	min-height: 328px;
 }
 
 .wip-text-container {
@@ -432,7 +435,6 @@ html, body {
     align-items: center;
     transition: all 0.2s ease;
     border-radius: 4px;
-    cursor: wait;
 }
 
 .wip-text {
@@ -464,6 +466,21 @@ html, body {
 	box-shadow: 0 20px 100px rgba(0, 0, 0, 0.3);
 	transform: translateY(-3px);
 	transition: all 0.2s ease;
+}
+
+@media (max-width: 538px) { 
+	.head-pic {
+	    opacity: 1;
+	    visibility: visible;
+	    padding: 10px 20px 10px 0px;
+	    width: 96px;
+	    float: left;
+	    transition: all 0.2s ease;
+	}
+
+	.head-title {
+	    transform: translate(0px);
+	}
 }
 
 /* TEXT COLORS */
