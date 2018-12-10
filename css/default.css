@@ -271,6 +271,13 @@ html, body {
 	transition: all 0.2s ease;
 }
 
+.head-links {
+	padding: 0.5rem 1rem;
+	border: 2px solid #171717;
+    border-radius: 4px;
+    margin: 0rem 0.5rem;
+}
+
 /* FONTS */
 
 .strong-message {
@@ -327,7 +334,7 @@ html, body {
 
 .nav-link.active {
     color: #fff!important;
-    border: 2px solid #797979;
+    border: 2px solid #333333;
     background-color: #1f1f1f;
 }
 
