@@ -185,7 +185,7 @@ html, body {
 
 .appicons {
 	border-radius: 24%;
-	box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+	/*box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);*/
 	transition: all 0.3s ease;
 }
 
@@ -490,7 +490,15 @@ html, body {
 }
 
 @media (max-width: 538px) { 
+	.nav-link {
+	font-size: 0.875em;
+	margin: 0rem 0.5rem;
+	padding-right: 0.5rem!important;
+    padding-left: 0.5rem!important;
+	}
+
 	.head-pic {
+		display: none;
 	    opacity: 1;
 	    visibility: visible;
 	    padding: 10px 20px 10px 0px;
